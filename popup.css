@@ -84,6 +84,32 @@ h1 {
   font-size: 13px;
 }
 
+.mascot-scene {
+  position: relative;
+  display: flex;
+  isolation: isolate;
+  min-height: 142px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid rgba(222, 216, 207, 0.82);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 248, 236, 0.78)),
+    radial-gradient(circle at 14% 18%, rgba(243, 186, 61, 0.24), transparent 34%),
+    linear-gradient(90deg, rgba(22, 134, 76, 0.1), rgba(243, 186, 61, 0.18));
+  box-shadow: var(--shadow);
+}
+
+.cash-cow-video {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 142px;
+  object-fit: contain;
+}
+
 .panel,
 .rates article {
   border: 1px solid var(--line);
