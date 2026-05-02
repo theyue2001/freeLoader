@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "薪水小偷計算器",
+  "version": "1.0.0",
+  "description": "即時計算你今天默默從公司賺了多少錢。",
+  "action": {
+    "default_title": "薪水小偷計算器",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
